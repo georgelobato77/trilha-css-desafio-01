@@ -1,0 +1,168 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão como Arial */
+    margin: 0; /* Remove as margens padrão */
+    padding: 0; /* Remove os preenchimentos padrão */
+    background-color: #f4f4f4; /* Define a cor de fundo como cinza claro */
+    color: #333; /* Define a cor do texto como cinza escuro */
+}
+
+/* Estiliza o cabeçalho */
+header.banner {
+    background-image: url('assets/images/banner.png'); /* Define a imagem de fundo do banner */
+    background-size: cover; /* Faz a imagem cobrir todo o espaço do banner */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-color: rgba(0, 0, 0, 0.6); /* Adiciona uma sobreposição escura para reduzir a transparência */
+    background-blend-mode: darken; /* Mistura a cor de fundo com a imagem */
+    color: rgb(16, 16, 77); /* Define a cor do texto */
+    text-transform: uppercase; /* Transforma o texto em caixa alta */
+    font-weight: bold; /* Define o texto como negrito */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding: 3rem 1rem; /* Adiciona espaçamento interno no banner */
+}
+
+header .banner-content {
+    max-width: 800px; /* Limita a largura máxima do conteúdo do banner */
+    margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+}
+
+header .logo img {
+    max-width: 150px; /* Define o tamanho máximo da imagem do logotipo */
+    margin-bottom: 1rem; /* Adiciona espaçamento abaixo do logotipo */
+}
+
+header h1 {
+    font-size: 2.5rem; /* Define o tamanho da fonte do título principal */
+    margin: 1rem 0; /* Adiciona espaçamento acima e abaixo do título */
+}
+
+header p {
+    font-size: 1.2rem; /* Define o tamanho da fonte do parágrafo */
+    margin-bottom: 2rem; /* Adiciona espaçamento abaixo do parágrafo */
+}
+
+/* Estiliza o texto da linha 18 do HTML (parágrafo do banner) */
+header.banner p {
+    color: white; /* Define a cor do texto como azul */
+}
+
+header button {
+    background-color: #007BFF; /* Define a cor de fundo do botão como azul */
+    color: white; /* Define a cor do texto do botão como branco */
+    border: none; /* Remove a borda padrão do botão */
+    padding: 0.8rem 1.5rem; /* Adiciona espaçamento interno ao botão */
+    font-size: 1rem; /* Define o tamanho da fonte do botão */
+    cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+}
+
+header button:hover {
+    background-color: #0056b3; /* Altera a cor de fundo do botão ao passar o mouse */
+}
+
+/* Estiliza a seção de conteúdo do curso */
+#course-content {
+    padding: 2rem 1rem; /* Adiciona espaçamento interno à seção */
+    text-align: center; /* Centraliza o texto */
+    background-color: rgba(0, 0, 0, 0.6); /* Adiciona uma sobreposição escura para reduzir a transparência */
+    background-blend-mode: darken; /* Mistura a cor de fundo com a imagem */
+}
+
+#course-content h2 {
+    font-size: 2rem; /* Define o tamanho da fonte do subtítulo */
+    margin-bottom: 1rem; /* Adiciona espaçamento abaixo do subtítulo */
+    text-transform: uppercase; /* Transforma o texto em caixa alta */
+    font-weight: bold; /* Define o texto como negrito */
+    color: rgb(16, 16, 77); /* Adiciona uma sobreposição escura para reduzir a transparência */
+}
+
+#course-content p {
+    font-size: 1.1rem; /* Define o tamanho da fonte do parágrafo */
+    margin-bottom: 2rem; /* Adiciona espaçamento abaixo do parágrafo */
+    color: white; /* Define a cor do texto como branco */
+}
+
+.modules-list {
+    display: flex; /* Define um layout flexível para a lista de módulos */
+    flex-direction: column; /* Organiza os itens em uma coluna */
+    gap: 1rem; /* Adiciona espaçamento entre os itens */
+    max-width: 600px; /* Limita a largura máxima da lista */
+    margin: 0 auto; /* Centraliza a lista horizontalmente */
+    color: rgb(16, 16, 77)
+}
+
+.module {
+    background-color: #007BFF; /* Define a cor de fundo do módulo como azul */
+    color: white; /* Define a cor do texto como branco */
+    padding: 1rem; /* Adiciona espaçamento interno ao módulo */
+    border-radius: 5px; /* Arredonda os cantos do módulo */
+    text-align: center; /* Alinha o texto à esquerda */
+}
+
+.module span {
+    font-weight: bold; /* Destaca o texto do módulo */
+    color: rgb(16, 16, 77)
+}
+
+/* Estiliza a seção "Transforme o Mundo" */
+#transform-world {
+    background-image: url('assets/images/woman-code.png'); /* Define a imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir todo o espaço da seção */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-attachment: fixed; /* Torna a imagem fixa ao rolar a página */
+    color: white; /* Define a cor do texto como branco */
+    text-align: center; /* Centraliza o texto */
+    padding: 10rem 1rem; /* Ajusta o espaçamento interno para simular mais conteúdo */
+    font-size: 2.5rem; /* Define o tamanho da fonte */
+    font-weight: bold; /* Define o texto como negrito */
+}
+
+/* Estiliza a seção de desafios profissionais */
+#professional-challenges {
+    padding: 2rem 1rem; /* Adiciona espaçamento interno à seção */
+    text-align: center; /* Centraliza o texto */
+    background-color: #333; /* Define a cor de fundo como cinza escuro */
+    color: rgb(16, 16, 77); /* Define a cor do texto como branco */
+    text-transform: uppercase; /* Transforma o texto em caixa alta */
+}
+
+#professional-challenges h2 {
+    font-size: 2rem; /* Define o tamanho da fonte do subtítulo */
+    margin-bottom: 1rem; /* Adiciona espaçamento abaixo do subtítulo */
+    color:rgb(16, 16, 77)
+}
+
+#professional-challenges img {
+    max-width: 100%; /* Faz a imagem ser responsiva */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 1rem 0; /* Adiciona espaçamento acima e abaixo da imagem */
+}
+
+#professional-challenges p {
+    font-size: 0.9rem; /* Define o tamanho da fonte do parágrafo */
+    line-height: 1.6; /* Define o espaçamento entre as linhas */
+    margin-top: 1rem; /* Adiciona espaçamento acima do parágrafo */
+    color: white; 
+}
+
+/* Estiliza o rodapé */
+footer {
+    background-color: #333; /* Define a cor de fundo como cinza escuro */
+    color: white; /* Define a cor do texto como branco */
+    text-align: center; /* Centraliza o texto */
+    padding: 2rem 1rem; /* Adiciona espaçamento interno ao rodapé */
+}
+
+footer .dio-logo {
+    max-width: 250px; /* Define o tamanho máximo da imagem do logotipo */
+    margin-bottom: 1rem; /* Adiciona espaçamento abaixo do logotipo */
+}
+
+footer a {
+    color: #007BFF; /* Define a cor do link como azul */
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao link ao passar o mouse */
+}
